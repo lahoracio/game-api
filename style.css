@@ -1,0 +1,58 @@
+:root{
+    --cor-hover: white;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 5%;
+}
+
+
+
+
+ul, ol, li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    background-color: rgb(33, 52, 116);
+    padding: 10px;
+}
+
+#pesquisar{
+    padding: 8px 16px;
+    font-size: 16px;
+    outline: none;
+    background-color: beige;
+    
+}
+
+#categoria{
+    padding: 12px 24px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: beige;
+}
+
+#galeria {
+    padding-top: 10px;
+    display: columns;
+    columns: 4;
+}
+#galeria img {
+    width: 100%;
+    padding-bottom: 8px;
+}
